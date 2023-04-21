@@ -1,10 +1,10 @@
 {
-  "name": "@antfu/eslint-config",
-  "version": "0.38.5",
-  "description": "Anthony's ESLint config",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
+  "name": "@airmus/eslint-config",
+  "version": "0.38.7",
+  "description": "Fog3211's ESLint config",
+  "author": "Fog3211 <fog3211@gmail.com> (https://github.com/Fog3211/)",
   "license": "MIT",
-  "homepage": "https://github.com/antfu/eslint-config",
+  "homepage": "https://github.com/airmus/eslint-config",
   "keywords": [
     "eslint-config"
   ],
@@ -16,6 +16,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
+    "@antfu/eslint-config-react": "workspace:*",
     "@antfu/eslint-config-vue": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.59.0",
     "@typescript-eslint/parser": "^5.59.0",
@@ -29,9 +30,14 @@
     "eslint-plugin-vue": "^9.11.0",
     "eslint-plugin-yml": "^1.5.0",
     "jsonc-eslint-parser": "^2.2.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "yaml-eslint-parser": "^1.2.0"
   },
   "devDependencies": {
     "eslint": "^8.38.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

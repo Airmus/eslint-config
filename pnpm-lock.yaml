@@ -4,7 +4,7 @@ importers:
 
   .:
     devDependencies:
-      '@antfu/eslint-config':
+      '@airmus/eslint-config':
         specifier: workspace:*
         version: link:packages/eslint-config
       bumpp:
@@ -25,6 +25,9 @@ importers:
 
   packages/eslint-config:
     dependencies:
+      '@antfu/eslint-config-react':
+        specifier: workspace:*
+        version: link:../eslint-config-react
       '@antfu/eslint-config-vue':
         specifier: workspace:*
         version: link:../eslint-config-vue
@@ -52,6 +55,12 @@ importers:
       eslint-plugin-promise:
         specifier: ^6.1.1
         version: 6.1.1(eslint@8.38.0)
+      eslint-plugin-react:
+        specifier: ^7.32.2
+        version: 7.32.2(eslint@8.38.0)
+      eslint-plugin-react-hooks:
+        specifier: ^4.6.0
+        version: 4.6.0(eslint@8.38.0)
       eslint-plugin-unicorn:
         specifier: ^46.0.0
         version: 46.0.0(eslint@8.38.0)
