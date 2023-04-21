@@ -4,6 +4,6 @@ module.exports = {
     '@antfu/eslint-config-react',
   ],
   rules: {
-    curly: ['error', 'all'],
+    curly: ['error', 'multi-line'],
   },
 }
