@@ -1,6 +1,6 @@
 {
   "name": "@airmus/eslint-config",
-  "version": "0.39.9",
+  "version": "0.40.1",
   "description": "Fog3211's ESLint config",
   "author": "Fog3211 <fog3211@gmail.com> (https://github.com/Fog3211/)",
   "license": "MIT",
