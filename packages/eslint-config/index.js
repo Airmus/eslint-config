@@ -4,7 +4,7 @@ module.exports = {
     '@antfu/eslint-config-react',
   ],
   rules: {
-    curly: ['error', 'multi-line'],
+    'curly': ['error', 'multi-line'],
     'unicorn/prefer-includes': 'off',
   },
 }
