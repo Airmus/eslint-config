@@ -1,6 +1,6 @@
 {
   "name": "@antfu/eslint-config-ts",
-  "version": "0.38.5",
+  "version": "0.39.8",
   "description": "",
   "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
   "license": "MIT",
@@ -18,11 +18,11 @@
   },
   "dependencies": {
     "@antfu/eslint-config-basic": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^5.59.0",
-    "@typescript-eslint/parser": "^5.59.0",
-    "eslint-plugin-jest": "^27.2.1"
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint-plugin-jest": "^27.2.3"
   },
   "devDependencies": {
-    "eslint": "^8.38.0"
+    "eslint": "^8.45.0"
   }
 }

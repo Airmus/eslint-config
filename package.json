@@ -1,12 +1,12 @@
 {
   "name": "@antfu/eslint-config-monorepo",
-  "version": "0.38.5",
+  "version": "0.39.8",
   "private": true,
-  "packageManager": "pnpm@8.3.0",
+  "packageManager": "pnpm@8.6.7",
   "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
   "license": "MIT",
   "scripts": {
-    "lint": "pnpm run stub && eslint .",
+    "lint": "pnpm -r run stub && eslint .",
     "test": "pnpm -r run test",
     "build": "pnpm -r run build",
     "prepare": "pnpm -r run stub",
@@ -14,10 +14,10 @@
   },
   "devDependencies": {
     "@airmus/eslint-config": "workspace:*",
-    "bumpp": "^9.1.0",
-    "eslint": "^8.38.0",
+    "bumpp": "^9.1.1",
+    "eslint": "^8.45.0",
     "eslint-plugin-antfu": "link:./packages/eslint-plugin-antfu",
-    "rimraf": "^5.0.0",
-    "typescript": "^5.0.4"
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.6"
   }
 }

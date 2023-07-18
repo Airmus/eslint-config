@@ -1,6 +1,6 @@
 {
   "name": "@airmus/eslint-config",
-  "version": "0.38.9",
+  "version": "0.39.9",
   "description": "Fog3211's ESLint config",
   "author": "Fog3211 <fog3211@gmail.com> (https://github.com/Fog3211/)",
   "license": "MIT",
@@ -18,26 +18,21 @@
   "dependencies": {
     "@antfu/eslint-config-react": "workspace:*",
     "@antfu/eslint-config-vue": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^5.59.0",
-    "@typescript-eslint/parser": "^5.59.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^7.1.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jsonc": "^2.7.0",
-    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-import": "npm:eslint-plugin-i@2.27.5-4",
+    "eslint-plugin-jsonc": "^2.9.0",
+    "eslint-plugin-n": "^16.0.1",
     "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-unicorn": "^46.0.0",
-    "eslint-plugin-vue": "^9.11.0",
-    "eslint-plugin-yml": "^1.5.0",
-    "jsonc-eslint-parser": "^2.2.0",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "yaml-eslint-parser": "^1.2.0"
+    "eslint-plugin-unicorn": "^48.0.0",
+    "eslint-plugin-vue": "^9.15.1",
+    "eslint-plugin-yml": "^1.8.0",
+    "jsonc-eslint-parser": "^2.3.0",
+    "yaml-eslint-parser": "^1.2.2"
   },
   "devDependencies": {
-    "eslint": "^8.38.0"
-  },
-  "publishConfig": {
-    "access": "public"
+    "eslint": "^8.45.0"
   }
 }

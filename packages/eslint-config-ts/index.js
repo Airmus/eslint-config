@@ -1,5 +1,6 @@
 const fs = require('node:fs')
 const { join } = require('node:path')
+const process = require('node:process')
 const basic = require('@antfu/eslint-config-basic')
 
 const tsconfig = process.env.ESLINT_TSCONFIG || 'tsconfig.eslint.json'
@@ -72,7 +73,6 @@ module.exports = {
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     '@typescript-eslint/prefer-ts-expect-error': 'error',
     '@typescript-eslint/no-require-imports': 'error',
-
     // Override JS
     'no-useless-constructor': 'off',
     'indent': 'off',
@@ -158,6 +158,9 @@ module.exports = {
 
     // antfu
     'antfu/generic-spacing': 'error',
+    'antfu/no-cjs-exports': 'error',
+    'antfu/no-ts-export-equal': 'error',
+    'antfu/no-const-enum': 'error',
 
     // off
     '@typescript-eslint/consistent-indexed-object-style': 'off',
@@ -171,7 +174,6 @@ module.exports = {
     '@typescript-eslint/no-empty-function': 'off',
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
-    '@typescript-eslint/ban-types': 'off',
     '@typescript-eslint/triple-slash-reference': 'off',
     // handled by unused-imports/no-unused-imports
     '@typescript-eslint/no-unused-vars': 'off',
