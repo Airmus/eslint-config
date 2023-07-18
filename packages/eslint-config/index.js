@@ -5,5 +5,6 @@ module.exports = {
   ],
   rules: {
     curly: ['error', 'multi-line'],
+    'unicorn/prefer-includes': 'off',
   },
 }
